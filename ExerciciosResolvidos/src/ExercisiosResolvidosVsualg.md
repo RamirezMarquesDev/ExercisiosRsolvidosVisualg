@@ -1,8 +1,8 @@
-#ExercisÌos Resolvidos VisualG 1
+Exercis√≠os Resolvidos VisualG 1
 --------------------------------------------------
 
 ##### Ramirez Marques
-#### **Parte 1: Enquanto**
+#### **Parte 1: Condicional Enquanto**
 --------------------------------------------------
 **01 - Leia uma quantidade indeterminada de duplas de valores inteiros X e** **Y.**
 **Escreva para cada X e Y uma mensagem que indique se estes valores foram**
@@ -30,10 +30,10 @@ inicio
       escreva ("Os valores iguais!")
 fimalgoritmo
 ```
-**02 - FaÁa um programa para ler um n˙mero indeterminado de dados, contendo** **cada**
-**um, a idade de um indivÌduo. O ˙ltimo dado, que n„o entrar· nos** **c·lculos, contÈm**
-**um valor de idade negativa. Calcular e imprimir a idade mÈdia deste grupo** **de**
-**indivÌduos. Se for entrado um valor negativo na primeira vez, mostrar a** **mensagem**
+**02 - Fa√ßa um programa para ler um n√∫mero indeterminado de dados, contendo** **cada**
+**um, a idade de um indiv√≠duo. O √∫ltimo dado, que n√£o entrar√° nos** **c√°lculos, cont√©m**
+**um valor de idade negativa. Calcular e imprimir a idade m√©dia deste grupo** **de**
+**indiv√≠duos. Se for entrado um valor negativo na primeira vez, mostrar a** **mensagem**
 **"IMPOSSIVEL CALCULAR".**
 
 ```2. Parte 1: Enquanto
@@ -53,19 +53,19 @@ inicio
            leia (idade)
            fimenquanto
            se qtd = 0 entao
-             escreval ("Idade Inv·lida!")
+             escreval ("Idade Inv√°lida!")
              senao
                 media <- soma / qtd
-                escreval ("MÈdia = ", media)
+                escreval ("M√©dia = ", media)
            fimse
 
 fimalgoritmo
 ```
-**03 - Escreva um programa que repita a leitura de uma senha atÈ que ela** **seja v·lida.**
+**03 - Escreva um programa que repita a leitura de uma senha at√© que ela** **seja v√°lida.**
 **Para cada leitura densenha incorreta informada, escrever a mensagem** **"Senha**
-**Inv·lida! Tente novamente:". Quando a senha for informada corretamente** **deve ser**
+**Inv√°lida! Tente novamente:". Quando a senha for informada corretamente** **deve ser**
 **impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere** **que**
-**a senha correta È o valor 2002.**
+**a senha correta √© o valor 2002.**
 
 ```3. Parte 1: Enquanto
 
@@ -76,7 +76,7 @@ inicio
       escreval ("Digite sua Senha de Quatro Digitos: ")
       leia (senha)
       enquanto senha <> 2002 faca
-              escreval ("Senha Inv·lida!")
+              escreval ("Senha Inv√°lida!")
               escreval ("Digite sua Senha: ")
               leia (senha)
       fimenquanto
@@ -87,8 +87,8 @@ fimalgoritmo
 ```
 **04 - Escreva um programa para ler as coordenadas (X,Y) de uma quantidade**
 **indeterminada de pontos no sistema cartesiano. Para cada ponto escrever o**
-**quadrante a que ele pertence (Q1, Q2, Q3 ou Q4). O algoritmo ser·** **encerrado**
-**quando pelo menos uma de duas coordenadas for NULA (nesta situaÁ„o sem**
+**quadrante a que ele pertence (Q1, Q2, Q3 ou Q4). O algoritmo ser√°** **encerrado**
+**quando pelo menos uma de duas coordenadas for NULA (nesta situa√ß√£o sem**
 **escrever mensagem alguma).**
 
 ```4. Parte 1: Enquanto
@@ -120,9 +120,9 @@ inicio
       fimenquanto
 fimalgoritmo
 ```
-**05 - FaÁa um programa que leia as notas referentes ‡s duas avaliaÁıes de** **um**
-**aluno. Calcule e imprima a mÈdia semestral. FaÁa com que o algoritmo sÛ** **aceite**
-**notas v·lidas (uma nota v·lida deve pertencer ao intervalo [0,10]). Cada** **nota deve**
+**05 - Fa√ßa um programa que leia as notas referentes √†s duas avalia√ß√µes de** **um**
+**aluno. Calcule e imprima a m√©dia semestral. Fa√ßa com que o algoritmo s√≥** **aceite**
+**notas v√°lidas (uma nota v√°lida deve pertencer ao intervalo [0,10]). Cada** **nota deve**
 **ser validada separadamente.**
 
 ```5. Parte 1: Enquanto
@@ -134,26 +134,26 @@ inicio
       escreval ("Informe a Primeira Nota: ")
       leia (n1)
       enquanto (n1 < 0) ou (n1 > 10) faca
-        escreval ("Valor da N1 Inv·lido! Digite Novamente: ")
+        escreval ("Valor da N1 Inv√°lido! Digite Novamente: ")
         leia (n1)
       fimenquanto
       escreval ("Informe a Segunda Nota: ")
       leia (n2)
       enquanto (n2 < 0) ou (n2 > 10) faca
-        escreval ("Valor da N2 Inv·lido! Digite Novamente: ")
+        escreval ("Valor da N2 Inv√°lido! Digite Novamente: ")
         leia (n2)
       fimenquanto
       media <- ((n1 + n2)/2)
-      escreval ("MÈdia do Aluno: ",media)
+      escreval ("M√©dia do Aluno: ",media)
 fimalgoritmo
 ```
-**06 - Um posto de combustÌveis deseja determinar qual de seus produtos** **tem a**
-**preferÍncia de seus clientes. Escreva um algoritmo para ler o tipo de** **combustÌvel**
-**abastecido (codificado da seguinte forma: 1. ¡lcool 2. Gasolina 3.** **Diesel 4. Fim).**
-**Caso o usu·rio informe um cÛdigo inv·lido (fora da faixa de 1 a 4) deve** **ser solicitado**
-**um novo cÛdigo (atÈ que seja v·lido). O programa ser· encerrado quando** **o cÛdigo**
-**informado for o n˙mero 4, devendo ent„o mostrar a mensagem "MUITO**
-**OBRIGADO", bem como as quantidades de cada combustÌvel.**
+**06 - Um posto de combust√≠veis deseja determinar qual de seus produtos** **tem a**
+**prefer√™ncia de seus clientes. Escreva um algoritmo para ler o tipo de** **combust√≠vel**
+**abastecido (codificado da seguinte forma: 1. √Ålcool 2. Gasolina 3.** **Diesel 4. Fim).**
+**Caso o usu√°rio informe um c√≥digo inv√°lido (fora da faixa de 1 a 4) deve** **ser solicitado**
+**um novo c√≥digo (at√© que seja v√°lido). O programa ser√° encerrado quando** **o c√≥digo**
+**informado for o n√∫mero 4, devendo ent√£o mostrar a mensagem "MUITO**
+**OBRIGADO", bem como as quantidades de cada combust√≠vel.**
 
 ```6. Parte 1: Enquanto
 
@@ -164,10 +164,10 @@ inicio
       alcool <- 0
       gasolina <- 0
       diesel <- 0
-      escreval ("Informe o CÛdigo do combustÌvel: ")
+      escreval ("Informe o C√≥digo do combust√≠vel: ")
       leia (codigo)
       enquanto (codigo < 1) ou (codigo > 4) faca
-          escreval ("CÛdigo Inv·lido! Favor DigÌte Novamente: ")
+          escreval ("C√≥digo Inv√°lido! Favor Dig√≠te Novamente: ")
           leia (codigo)
       fimenquanto
       enquanto (codigo >= 1) e (codigo <= 3) faca
@@ -182,7 +182,7 @@ inicio
                        fimse
                    fimse
                        fimse
-      escreval ("Informe o CÛdigo do combustÌvel: ")
+      escreval ("Informe o C√≥digo do combust√≠vel: ")
       leia (codigo)
       fimenquanto
       escreval ("MUITO OBRIGADO!")
@@ -193,11 +193,11 @@ fimalgoritmo
                    
 ```
 
-**07 - O programa deve ler um valor inteiro X indefinidas vezes. (O** **programa ir· parar**
+**07 - O programa deve ler um valor inteiro X indefinidas vezes. (O** **programa ir√° parar**
 **quando o valor de X for igual a 0). Para cada X lido, imprima a soma dos** **5 pares**
 **consecutivos a partir de X, inclusive o X, se for par. Se o valor de** **entrada for 4, por**
-**exemplo, a saÌda deve ser 40, que È o resultado da operaÁ„o:** **4+6+8+10+12,**
-**enquanto que se o valor de entrada for 11, por exemplo, a saÌda deve ser** **80, que È**
+**exemplo, a sa√≠da deve ser 40, que √© o resultado da opera√ß√£o:** **4+6+8+10+12,**
+**enquanto que se o valor de entrada for 11, por exemplo, a sa√≠da deve ser** **80, que √©**
 **a soma de 12+14+16+18+20.**
 
 ```7 parte 1: Enquanto
@@ -216,7 +216,7 @@ inicio
          soma <- (x+1)*5 + 20
       fimse
       escreval ("SOMA = ", soma)
-      escreval("Digite um n˙mero inteiro: ")
+      escreval("Digite um n√∫mero inteiro: ")
       leia (x)
    fimenquanto
 fimalgoritmo
